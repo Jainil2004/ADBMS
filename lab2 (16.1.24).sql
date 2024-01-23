@@ -41,13 +41,6 @@ DESCRIBE CLIENT_MASTER_1;
 -- question 1 ends
 
 -- question 2
-insert into CLIENT_MASTER_1 values("C00001", "Jainil Jain", null , null, "Udaipur", 313001, "Rajasthan", 0),
-("C00002", "Ballu Singh", null, null, "Ludhiana", "764183", "Punjab", 2500),
-("C00003", "Ayush Jain", null, null, "Udaipur", "313001", "Rajasthan", 0),
-("C00004", "Mukul Dhupia", null, null, "Udaipur", 313001, "Rajasthan", 500),
-("C00005", "Dhruvi Mehta", null, null, "Udaipur", 313001, "Rajasthan", 5500),
-("C00006", "bhalla", null, null, "Udaipur", 313001, "Rajasthan", 10500);
-
 insert into product_master_1 VALUES("P00001", "T-shirt", 5, "Piece", 200, 50, 350, 250),
 ("P0345", "Shirts", 6, "Piece", 150, 50, 500, 350),
 ("P06734", "Cotton jeans", 5, "Piece", 100, 20, 600, 450),
