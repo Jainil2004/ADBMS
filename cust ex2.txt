@@ -1,0 +1,30 @@
+cust ex2
+
+Employees (EmployeeID, FirstName, LastName, DepartmentID)
+Departments (DepartmentID, DepartmentName)
+Orders (OrderID, EmployeeID, CustomerID, OrderDate)
+OrderDetails (OrderDetailID, OrderID, ProductID, Quantity)
+Products (ProductID, ProductName, Price)
+Note: Replace the table and column names with the actual ones in your database.
+
+1. Select all employees from the Employees table.
+2. Select all departments from the Departments table.
+3. Select all orders from the Orders table.
+4. Select all employees and their department names. Join Employees and Departments tables.
+5. Select all orders along with employee names. Join Orders and Employees tables.
+6. Select all orders along with customer IDs and employee names. Join Orders and Employees tables.
+7. Select all products from the Products table where the price is greater than 50.
+8. Select all employees who work in the 'Sales' department.
+9. Select all orders placed by a certain employee (use a specific EmployeeID).
+10. Select all employees who have not placed any orders.
+11. Select the department with the most employees.
+12. Select the employee who has placed the most orders.
+13. Select all orders placed in the year 2020.
+14. Select all products that have never been ordered.
+15. Select all employees who have placed more than 10 orders.
+16. Select the department that has received the most orders.
+17. Select all orders that include more than 3 different products.
+18. Select all employees who have sold products for a total of more than $1000.
+19. Select the most popular product (the one that appears in the most orders).
+20. Select all employees who have sold the most popular product.
+Remember, these exercises are meant to be solved without using SQL aggregation functions except GROUP BY. You may need to use other SQL concepts like JOIN, WHERE, HAVING, COUNT, SUM, MAX, MIN, etc.
